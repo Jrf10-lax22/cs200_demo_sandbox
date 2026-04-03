@@ -7,6 +7,7 @@ def func1():
         num = int(input('num:'))
     return lst
 
+
 def func2(data):
     print('Here is the data:')
     print(data)
@@ -15,19 +16,21 @@ def func2(data):
     while True:
         choice = input('Select an option. 1-sum  2-min  3-max  4-quit')
         if choice == '1':
-            print('The sum is',sum(data))
+            print('The sum is', sum(data))
         elif choice == '2':
-            print('The min is ',min(data))
+            print('The min is ', min(data))
         elif choice == '3':
-            print('The max is ',max(data))
+            print('The max is ', max(data))
         elif choice == '4':
             print('Goodbye')
             return
+
 
 def main():
     print("Hello, World!")
     data = func1()
     func2(data)
+
 
 if __name__ == "__main__":
     main()
