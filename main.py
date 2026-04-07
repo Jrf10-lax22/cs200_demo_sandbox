@@ -26,6 +26,14 @@ def func2(data):
             return
 
 
+def foo(x, y):
+    return (x*y)+1
+
+
+def bar(u, v):
+    return (u+v)*1
+
+
 def main():
     print("Hello, World!")
     data = func1()
